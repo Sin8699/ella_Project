@@ -1,0 +1,77 @@
+@keyframes RotateAuto {
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.SectionFlex {
+  display: flex;
+  max-width: 1400px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 150px auto;
+  position: relative;
+}
+
+.ItemSectionFlex {
+  max-width: 380px;
+}
+
+.ItemSectionFlex .icon {
+  color: #ff4719;
+  font-size: 30px;
+  border: 1px solid #c3c9d0;
+  border-radius: 50%;
+  max-width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  margin: 20px auto;
+}
+.ItemSectionFlex .content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.ItemSectionFlex .content h3 {
+  font-size: 20px;
+  line-height: 1.4;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+  color: #28274b;
+}
+
+.ItemSectionFlex .content p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #8b919f;
+}
+
+.SectionFlex .box1 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: -170px;
+  top: 22%;
+  z-index: -1;
+}
+.SectionFlex .box1 .s2 {
+  height: 310%;
+  width: 310%;
+  position: relative;
+  top: -100%;
+  left: -200%;
+  animation: RotateAuto 10s infinite;
+}
+.SectionFlex .box1 .s1 {
+  width: 70%;
+  height: 70%;
+  top: -80%;
+  left: 75%;
+  position: absolute;
+  animation: RotateAuto 10s infinite;
+}

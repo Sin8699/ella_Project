@@ -1,0 +1,87 @@
+@keyframes RotateAuto {
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.SectionLooking {
+  text-align: center;
+  width: 100%;
+  position: relative;
+  background-color: #dd4b69;
+}
+.SectionLooking h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.02rem;
+  padding: 70px 0;
+}
+.SectionLooking .button {
+  margin: 50px auto 130px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.SectionLooking .button a {
+  color: #141c34;
+  background: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+  border-radius: 4px;
+  padding: 21px;
+  font-weight: 700;
+  margin: 20px;
+  text-decoration: none;
+  width: 270px;
+  height: 60px;
+}
+
+.SectionLooking .ItemSectionLooking h5 {
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0 0 15px 0;
+  display: block;
+}
+.SectionLooking a img {
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.08);
+  max-width: 250px;
+  max-height: 262px;
+}
+
+.SectionLooking .boxB {
+  position: absolute;
+  left: -90%;
+  top: -30%;
+  z-index: 2;
+  animation: RotateAuto 10s infinite;
+}
+
+.SectionLooking .boxM {
+  position: absolute;
+  right: 5%;
+  bottom: 12%;
+  animation: RotateAuto 10s infinite;
+}
+
+.SectionLooking .ItemSectionLooking {
+  top: 30px;
+  left: 0;
+  position: relative;
+}
+.SectionLooking .sliderLooking {
+  margin: 0 40px;
+  z-index: 3;
+}
+.ItemSectionLooking:not(.slick-active) {
+  top: 100px;
+}

@@ -1,0 +1,113 @@
+@keyframes RotateAuto {
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Footer {
+  position: relative;
+}
+
+.Footer .Foot1 h1 {
+  font-size: 96px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.Footer .Foot1 {
+  background: #272727;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+  padding: 130px 0 50px 0;
+  width: 100%;
+}
+
+.Footer .Foot1 .rating {
+  margin: 13px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.Footer .Foot1 .rating img {
+  max-height: 25px;
+  vertical-align: top;
+  margin: 0 20px;
+  max-width: 200px;
+  margin: 0 20px;
+}
+.Footer .Foot1 .link {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin: 100px auto;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative;
+}
+.Footer .Foot1 .link span{
+ margin-bottom: 10px;
+}
+.Footer .Foot1 .link a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 20px 10px 0;
+  position: relative;
+}
+.Footer .Foot1 .link a::after {
+  content: "";
+  background: #ffffff;
+  height: 1px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 0;
+  transition: 0.3s ease;
+}
+
+.Footer .Foot1 .link a:hover::after {
+  width: 100%;
+}
+
+.Footer .Foot1 .link .item {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.Footer .box {
+  position: absolute;
+  z-index: 2;
+  right: -10%;
+  top: -35%;
+  animation: RotateAuto 10s infinite;
+}
+
+.Footer .Foot2 {
+  background: #333333;
+  color: #969696;
+  text-align: center;
+
+  padding: 50px 10px 70px 10px;
+}
+
+.Footer .Foot2 p {
+  font-weight: 400;
+  color: #8b919f;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.Footer .Foot2 .info {
+  margin: auto;
+  font-weight: 600;
+  font-size: 12px;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-position: under;
+}

@@ -1,0 +1,135 @@
+@keyframes RotateAuto {
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.SectionCreative {
+  width: 100%;
+  height: 100%;
+}
+.SectionCreative .box1 {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: -170px;
+  top:1.4%;
+  z-index: -1;
+}
+.SectionCreative .box1 .s2 {
+  height: 30%;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  animation: RotateAuto 10s infinite;
+}
+.SectionCreative .box1 .s1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation: RotateAuto 10s infinite;
+}
+
+.SectionCreative .box2 {
+  position: absolute;
+  right: 0;
+  top:-60px;
+}
+
+.SectionCreative .box2 .s1 {
+  position: absolute;
+  top: 45%;
+  left: 35%;
+  animation: RotateAuto 20s infinite;
+  z-index: -2;
+}
+.SectionCreative .group {
+  width: 1400px;
+  height: 1400px;
+  position: relative;
+  z-index: -1;
+}
+.SectionCreative .group .s3 {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 5%;
+  right: 0;
+}
+.SectionCreative .group .s2 {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  right: -300px;
+  animation: RotateAuto 20s infinite;
+}
+
+.SectionCreative .content {
+  margin: 100px 0 0 70px;
+  float: left;
+}
+.SectionCreative .content h1 {
+  color: #141c34;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+  letter-spacing: 0.02rem;
+  max-width: 80%;
+}
+.SectionCreative .button-group{
+  margin: 50px auto;
+}
+.SectionCreative .content p {
+  font-size: 24px;
+  color: #8b919f;
+  font-weight: 800;
+  line-height: 1.2;
+  font-weight: 300;
+  margin: 0 0 25px 0;
+}
+.SectionCreative .content .buttonBuy {
+  padding: 20px 30px;
+  background: #ff4719;
+  font-weight: 500;
+  color: white;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+.SectionCreative .content .buttonDiscover {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 20px 35px;
+  line-height: 60px;
+  border-radius: 3px;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #ced0d6;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.075);
+  margin-left:25px;
+}
+.SectionCreative .description {
+  clear: both;
+  margin: auto;
+    max-width: 700px;
+    text-align: center;
+    padding-top: 400px;
+    color: #28274b; 
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.8;
+    font-weight: 500;
+}
+.SectionCreative a:hover {
+  text-decoration: none;
+}
+
+.SectionCreative .ImgResponsive{
+  position: relative;
+  display: none;
+}

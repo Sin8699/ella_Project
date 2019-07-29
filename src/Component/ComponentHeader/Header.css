@@ -1,0 +1,145 @@
+.Header .iconMenu div {
+  width: 30px;
+  height: 4px;
+  background-color: #141c34;
+  margin: 6px 0;
+}
+
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  position: relative;
+  z-index: 100;
+  width: 100%;
+}
+
+.HeaderFixed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background: white;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.06);
+  padding: 10px 50px;
+  margin: 0;
+  width: 100%;
+  transition: 0.1s linear;
+  z-index: 100;
+}
+
+.Header .title {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  justify-content: space-around;
+}
+.Header .logo img {
+  max-width: 80px;
+  max-height: 57px;
+}
+.Header a {
+  text-decoration: none;
+  color: #8b919f;
+}
+.Header .link {
+  display: flex;
+}
+.Header .link a {
+  padding: 0 20px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.5px;
+  margin: 15px 0;
+}
+.Header .buynow {
+  color: white;
+  border: 3px solid white;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  margin-right: 10px;
+  /* z-index: -2; */
+}
+
+.Header .logo_title{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.MenuLeft {
+  display: flex;
+  height: 100%;
+  width: 470px;
+  background: white;
+  padding: 60px 50px 60px 30px;
+  position: fixed;
+  top: 0;
+  left: -470px;
+  transition: all 0.5s ease;
+  align-items: baseline;
+  overflow-y: scroll;
+  z-index: 100;
+}
+.MenuLeft .icon a{
+  color: #bdbdbd;
+  width: 30px;
+  height: 30px;
+  font-weight: 300;
+  font-size: 30px;
+  margin: -10px 50px;
+  text-decoration: none;
+  
+}
+.MenuLeft .icon:hover {
+  cursor: pointer;
+}
+.MenuLeft .link {
+  height: 300px;
+  list-style: none;
+  padding: 0;
+}
+.MenuLeft .link li{
+  margin: 20px 0;
+}
+.MenuLeft .link a {
+  font-size: 13px;
+  line-height: 20px;
+  color: #46505a;
+  position: relative;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin: 10px;
+}
+.MenuLeft .link a::after {
+  content: "";
+  background: #5b9bca;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  width: 0;
+  transition: 0.3s ease;
+}
+
+.MenuLeft .link a:hover{
+  color: #5b9bca;
+}
+.MenuLeft .link a:hover::after {
+  width: 100%;
+}
+
+.Contain .Menu {
+    background: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 120%;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+}

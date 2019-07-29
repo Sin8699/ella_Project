@@ -1,0 +1,83 @@
+@keyframes RotateAuto {
+  100% {
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.SectionMultiple {
+  text-align: center;
+  max-width: 940px;
+  margin: 100px auto;
+  position: relative;
+  padding: 0 100px;
+}
+.SectionMultiple .slickItemMultiple img {
+  max-width: 840px;
+  max-height: 570px;
+}
+.SectionMultiple .imgSection {
+  position: absolute;
+  top: -20%;
+  left: -15%;
+  z-index: -1;
+  height: 120%;
+  width: 80%;
+  animation: 10s RotateAuto infinite;
+}
+.SectionMultiple .left{
+  display: inline-block;
+  position: absolute;
+  right: -15%;
+  top: 50%;
+  font-size: 100px;
+  color: #969ba8;
+}
+.SectionMultiple .right{
+  display: inline-block;
+  position: absolute;
+  left: -15%;
+  top: 50%;
+  font-size: 100px;
+  color: #969ba8;
+}
+.slick-prev:before {
+  content: "←";
+}
+.slick-next {
+  fill: #969ba8;
+  width: 60px;
+  height: 60px;
+  fill: #969ba8;
+  stroke: #969ba8;
+  z-index: 5;
+}
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+.slick-dots li button{
+  width: 10px;
+  height: 10px;
+  padding: 0;
+  opacity: 0.5;
+  border-radius: 50%;
+  border: 1px solid #d8d9e0;
+  background-color: #d8d9e0;
+  transition: all 0.3s ease;
+}
+.slick-dots li button::before{
+  content: "";
+}
+
+.slick-dots li.slick-active button {
+  opacity: 1;
+  border: 1px solid #969ba8;
+  background-color: transparent;
+}
+
+.slick-dots {
+  position: relative;
+  margin: 20px;
+}

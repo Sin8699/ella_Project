@@ -1,0 +1,41 @@
+.SectionHomepages {
+  display: flex;
+  flex-direction: column;
+  margin: 15% auto 0 auto;
+}
+
+.SectionHomepages .header {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.SectionHomepages .header a {
+    padding: 20px 40px;
+  color: #8b919f;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.RenderPage{
+    text-align: center;
+    margin: 70px 0;
+}
+.RenderPage .des{
+    padding-bottom: 70px;
+    color: #8b919f;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.RenderPage .title{
+    margin: 0;
+    color: #28274b;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.02rem;
+    text-transform: capitalize;
+}

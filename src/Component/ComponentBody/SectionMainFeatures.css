@@ -1,0 +1,44 @@
+.SectionMainFeatures {
+  text-align: center;
+  margin: 150px auto;
+}
+.SectionMainFeatures h1 {
+  color: #28274b;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.6;
+  letter-spacing: 0.02rem;
+}
+.SectionMainFeatures p {
+  margin: 13px 0 0 0;
+  color: #8b919f;
+  font-size: 19px;
+  font-weight: 400;
+}
+.SectionMainFeatures .item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 50px 0 0 20px;
+}
+
+.SectionMainFeatures li::before {
+  left: 0px;
+  top: -1px;
+  content: "•";
+  color: rgb(206, 208, 214);
+  font-size: 24px;
+  margin-right: 12px;
+  position: absolute;
+}
+.SectionMainFeatures li {
+  color: #28274b;
+  font-size: 16px;
+  line-height: 26px;
+  vertical-align: top;
+  margin-bottom: 40px;
+  padding-left: 20px;
+  position: relative;
+  text-align: left;
+  list-style: none;
+}

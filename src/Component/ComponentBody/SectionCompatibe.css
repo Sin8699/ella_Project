@@ -1,0 +1,61 @@
+.SectionCompatibe{
+    text-align: center;
+}
+
+.SectionCompatibe h1{
+    margin: 0;
+    color: #28274b;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.6;
+    letter-spacing: 0.02rem;
+}
+
+.SectionCompatibe p{
+    margin: 13px 0 0 0;
+    color: #8b919f;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.SectionCompatibe .link{
+    letter-spacing: 0.02rem;
+}
+
+.SectionCompatibe .link a{
+    text-decoration: none;
+    color: #ff4719;
+    text-transform: capitalize;
+    border-bottom: 1px solid #ff4719;
+}
+
+.SectionCompatibe .items{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1020px;
+    margin: auto;
+    align-items: center;
+    margin: 80px auto 30px auto;
+    flex-wrap: wrap;
+}
+.SectionCompatibe .contain1,.contain2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.SectionCompatibe .items .item1{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
+}
+.SectionCompatibe .items .item2{
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.SectionCompatibe .items .item3{
+    width: 140px;
+    height: 140px;
+    margin: 20px;
+}

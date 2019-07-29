@@ -1,0 +1,204 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.MAIN {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.MAIN .ComeBack i {
+  color: black;
+  margin: 8px;
+}
+
+.MAIN .ComeBack {
+  position: fixed;
+  right: 1%;
+  top: 60%;
+  width: 40px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid black;
+  text-align: center;
+  line-height: -30px;
+  font-size: x-large;
+  z-index: 100;
+}
+
+/*              RESPONSIVE                 */
+
+@media only screen and (max-width: 1013px) {
+  .SectionCreative .box1 {
+    display: none !important;
+  }
+
+  .Header {
+    padding: 20px 0 !important;
+  }
+  .SectionCreative .content {
+    margin: 100px 0 0 10px !important;
+  }
+}
+@media only screen and (max-width: 1118px) {
+  .Header .link {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1478px) {
+  .BackgroundSpecification .SectionRender {
+    max-width: calc(1410px - 350px) !important;
+  }
+}
+
+@media only screen and (max-width: 1062px) {
+  .BackgroundSpecification .SectionRender {
+    max-width: calc(1410px - 700px) !important;
+  }
+}
+@media only screen and (max-width: 704px) {
+  .BackgroundSpecification .SectionRender {
+    max-width: calc(1410px - 1050px) !important;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .SectionCompatibe .items {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 821px) {
+  .SectionCompatibe .items .contain1 {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 542px) {
+  .SectionCompatibe .items .contain2 {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .SectionMultiple {
+    padding: 0 10px !important;
+  }
+
+  .SectionCreative .box2 .s1 {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1059px) {
+  .Footer .Foot1 .link {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1020px) {
+  .SectionLooking .boxB {
+    display: none;
+  }
+
+  .SectionLooking .boxM {
+    display: none;
+  }
+
+  .Footer .box {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1283px) {
+  .SectionCreative .group .s2 {
+    right: -550px !important;
+  }
+  .SectionCreative .group .s3 {
+    width: 80% !important;
+    height: 60% !important;
+  }
+  .SectionCreative .s1 {
+    left: 54% !important;
+    top: 40% !important;
+  }
+}
+
+@media only screen and (max-width: 1254px) {
+  .SectionFlex .box1 {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 1172px) {
+  .SectionMultiple .imgSection {
+    left: 15% !important;
+    height: 70% !important;
+    width: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .SectionCreative .group {
+    display: none !important;
+  }
+  .SectionCreative .ImgResponsive {
+    display: block !important;
+  }
+  .SectionCreative .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px !important;
+  }
+  .SectionCreative .content h1 {
+    max-width: 90% !important;
+    font-size: 30px !important;
+  }
+  .SectionCreative .content p {
+    font-size: 19px !important;
+  }
+  .SectionCreative .description {
+    padding: 0 !important;
+  }
+  .SectionFlex {
+    margin: 50px auto !important;
+  }
+  .SectionMainFeatures .item {
+    margin: 50px auto !important;
+    flex-direction: column;
+  }
+
+  .SectionMultiple .imgSection {
+    display: none;
+  }
+  .SectionCustomers .box {
+    display: none;
+  }
+
+  .SectionLooking h1 {
+    font-size: 30px !important;
+  }
+  .SectionLooking .button a {
+    width: 90% !important;
+  }
+  .Footer .Foot1 h1 {
+    font-size: 36px !important;
+    font-weight: 800 !important;
+  }
+  .Footer .Foot1 .rating {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+  .Header .buynow{
+    color: black !important; 
+    border: 3px solid black !important;
+    font-size: 12px !important;
+  }
+
+  .Header{
+    background: #ffffff !important;
+  }
+}
