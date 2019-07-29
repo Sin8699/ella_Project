@@ -33,11 +33,11 @@ var arr = [
 var SectionLooking = () => {
   return (
     <div className="SectionLooking">
-      <div className="boxB">
-        <img src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer7.png" data-parallax='{"x": -50 , "y": 120 , "smoothness": 100}'/>
+      <div className="boxB" data-parallax='{"x": -50 , "y": 120 , "smoothness": 100}'>
+        <img src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer7.png" />
       </div>
-      <div className="boxM">
-        <img src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer8.png" data-parallax='{"x": -40 , "y": 120 , "smoothness": 120}'/>
+      <div className="boxM" data-parallax='{"x": -40 , "y": 120 , "smoothness": 120}'>
+        <img src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer8.png" />
       </div>
       <h1>
         Looking for a <strong>customize service?</strong>

@@ -62,16 +62,19 @@
 .SectionFlex .box1 .s2 {
   height: 310%;
   width: 310%;
-  position: relative;
-  top: -100%;
-  left: -200%;
   animation: RotateAuto 10s infinite;
 }
 .SectionFlex .box1 .s1 {
-  width: 70%;
-  height: 70%;
-  top: -80%;
-  left: 75%;
-  position: absolute;
   animation: RotateAuto 10s infinite;
+}
+
+.SectionFlex .box1 .B1_S2 {
+  position: relative;
+  top: -120%;
+  left: -200%;
+}
+.SectionFlex .box1 .B1_S1 {
+  top: -90%;
+  left: 35%;
+  position: absolute;
 }

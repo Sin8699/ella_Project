@@ -18,18 +18,22 @@
   z-index: -1;
 }
 .SectionCreative .box1 .s2 {
-  height: 30%;
-  width: 30%;
+  animation: RotateAuto 10s infinite;
+  height: 100%;
+  width: 100%;
+}
+.SectionCreative .box1 .S2Contain {
   position: absolute;
   top: 50%;
   left: 75%;
-  animation: RotateAuto 10s infinite;
+}
+.SectionCreative .box1 .S1Contain {
+  position: relative;
 }
 .SectionCreative .box1 .s1 {
+  animation: RotateAuto 10s infinite;
   width: 100%;
   height: 100%;
-  position: relative;
-  animation: RotateAuto 10s infinite;
 }
 
 .SectionCreative .box2 {
@@ -39,10 +43,12 @@
 }
 
 .SectionCreative .box2 .s1 {
+  animation: RotateAuto 20s infinite;
+}
+.SectionCreative .box2 .Box2_S1Contain {
   position: absolute;
   top: 45%;
   left: 35%;
-  animation: RotateAuto 20s infinite;
   z-index: -2;
 }
 .SectionCreative .group {
@@ -59,11 +65,14 @@
   right: 0;
 }
 .SectionCreative .group .s2 {
+  animation: RotateAuto 20s infinite;
+}
+
+.SectionCreative .group .Box2_S2Contain {
   position: absolute;
   width: 80%;
   height: 80%;
   right: -300px;
-  animation: RotateAuto 20s infinite;
 }
 
 .SectionCreative .content {

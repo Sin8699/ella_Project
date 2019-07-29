@@ -6,8 +6,12 @@ var SectionFlex = () => {
   return (
     <div class="SectionFlex">
       <div className="box1">
-        <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png" data-parallax='{"x": 100 , "y": -80 , "scale": 0.5 , "smoothness": 100}'/>
-        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png" data-parallax='{"y": 150 , "smoothness": 200}'/>
+        <div className="B1_S1" data-parallax='{"x": 100 , "y": -80 , "scale": 0.5 , "smoothness": 100}'>
+        <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png"/>
+        </div>
+        <div className="B1_S2" data-parallax='{"y": 150 , "smoothness": 200}'>
+        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png"/>
+        </div>
       </div>
       <ItemSectionFlex
         icon="fa fa-heart"

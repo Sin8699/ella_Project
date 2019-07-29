@@ -6,8 +6,12 @@ var SectionCreative = () => {
   return (
     <section className="SectionCreative">
       <div className="box1">
-        <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png" data-parallax='{"x": 160 , "y": 50 , "smoothness": 50}'/>
-        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png" data-parallax='{"y": -50 , "z": -50 , "smoothness": 200}'/>
+        <div className="S1Contain" data-parallax='{"x": 160 , "y": 50 , "smoothness": 50}'>
+        <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png"/>
+        </div>
+        <div className="S2Contain" data-parallax='{"y": -150 , "z": -150 , "smoothness": 200}'>
+        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png" />
+        </div>
       </div>
       <img className="ImgResponsive" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/ella-shopify.png"/>
       <div className="content" id="content">
@@ -27,9 +31,13 @@ var SectionCreative = () => {
         </div>
       </div>
       <div className="box2">
-      <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png" data-parallax='{"y": -180 , "scale": 0.8 , "smoothness": 300}'/>
+        <div className="Box2_S1Contain" data-parallax='{"y": -180 , "scale": 0.8 , "smoothness": 300}'>
+      <img className="s1" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer6.png" />
+      </div>
       <div className="group">
-        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png" data-parallax='{"x": 70 , "y": 100 , "smoothness": 50}'/>
+        <div className="Box2_S2Contain" data-parallax='{"x": 70 , "y": 100 , "smoothness": 50}'>
+        <img className="s2" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer5.png"/>
+        </div>
         <img className="s3" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-main-image.png" />
         </div>
       </div>

@@ -4,7 +4,9 @@ import "./Footer.css";
 var Footer = () => {
   return (
     <div className="Footer">
-      <img className="box" src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer9.png" data-parallax='{"x": -40 , "y": 120 , "smoothness": 120}'/>
+      <div className="box"  data-parallax='{"x": -40 , "y": 120 , "smoothness": 120}'>
+      <img  src="http://themes.halothemes.com/marketplace/shopify-ella-ldp/assets/images/parallax-layer9.png"/>
+      </div>
       <div className="Foot1">
         <h1 className="title">LOVE OUR WORKS</h1>
         <div className="rating">

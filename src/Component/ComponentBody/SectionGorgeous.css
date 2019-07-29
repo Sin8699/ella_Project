@@ -10,13 +10,6 @@
     transform: scale(1);
   }
 }
-
-@keyframes noZom{
-  100%{
-    transform: scale(1);
-  }
-}
-
 .SectionGorgeous {
   text-align: center;
   margin: auto;
@@ -171,5 +164,119 @@
 }
 
 .ItemSection .date .detail {
+  font-weight: 700;
+}
+
+.ItemSectionZoom {
+  background: white;
+  margin: 15px;
+  border-radius: 8px;
+  border: 1px solid #e7e6eb;
+  background-color: #fbfaff;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+  position: relative;
+}
+.ItemSectionZoom .new {
+  z-index: 10;
+  right: 0;
+  top: -15px;
+  position: absolute;
+  font-size: 12px;
+  font-weight: 500;
+  width: 70px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+  text-transform: capitalize;
+  background-color: #15cf7e;
+}
+.ItemSectionZoom img {
+  max-width: 320px;
+  transition: 1s linear;
+  z-index: -1;
+}
+.ItemSectionZoom .containImg {
+  max-width: 320px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.ItemSectionZoom .coming {
+  width: 320px;
+  height: 450px;
+  z-index: 2;
+  opacity: 0.95;
+  position: absolute;
+  background-color: #28274b;
+  color: white;
+  font-weight: 600;
+  font-size: 21px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ItemSectionZoom .background {
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.ItemSectionZoom .link {
+  display: flex;
+}
+.ItemSectionZoom .link p {
+  line-height: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 400;
+  color: #8b919f;
+  margin: 0;
+}
+.ItemSectionZoom .link .shop::before {
+  content: "❯";
+  color: rgb(223, 227, 236);
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  margin: 0px 7px;
+}
+
+.ItemSectionZoom .title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.ItemSectionZoom .title p {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #28274b;
+  text-transform: capitalize;
+}
+.ItemSectionZoom .title i {
+  font-weight: 900;
+  color: #dfe3ec;
+  font-size: 30px;
+}
+.ItemSectionZoom .title i:hover {
+  color: #ff4719;
+}
+
+.ItemSectionZoom .date {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #8b919f;
+  padding: 20px 30px;
+}
+
+.ItemSectionZoom .date .detail {
   font-weight: 700;
 }

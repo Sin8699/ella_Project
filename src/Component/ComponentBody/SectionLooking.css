@@ -63,14 +63,18 @@
   left: -90%;
   top: -30%;
   z-index: 2;
+ 
+}
+.SectionLooking .boxB img{
   animation: RotateAuto 10s infinite;
 }
-
+.SectionLooking .boxM img{
+  animation: RotateAuto 10s infinite;
+}
 .SectionLooking .boxM {
   position: absolute;
   right: 5%;
   bottom: 12%;
-  animation: RotateAuto 10s infinite;
 }
 
 .SectionLooking .ItemSectionLooking {

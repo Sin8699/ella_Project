@@ -6,8 +6,6 @@
   }
 }
 
-
-
 .Footer {
   position: relative;
 }
@@ -84,6 +82,8 @@
   z-index: 2;
   right: -10%;
   top: -35%;
+}
+.Footer .box img{
   animation: RotateAuto 10s infinite;
 }
 
